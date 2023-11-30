@@ -1,0 +1,31 @@
+{
+  "name": "rama-can/laravel-imagekit",
+  "description": "Package for interacting with ImageKit in Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Rama Can",
+      "email": "heyramacan@gmai.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RamaCan\\ImageKit\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.34",
+    "imagekit/imagekit": "^3.0",
+    "league/flysystem": "^3.21"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
